@@ -152,6 +152,7 @@ services:
       - http-mock
       - transactor-sidecar
     command: >
+      -settlementThrottleTime=5s
       -ethStaticGasPrice=0.001
       -maticStaticGasPrice=0.001
       -settlementThrottleTime=1ms
